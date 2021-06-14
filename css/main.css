@@ -1,0 +1,58 @@
+:root {
+  --accent-color: #212121;
+  --accent-color2: #2196f3;
+  --accent-color3: #757575;
+  --accent-color4: #ffffff;
+  --hover-color: #2196f3;
+  --title-color: #212121;
+  --subtitle-color: #757575;
+  --button-color: #188ce8;
+  --background-color: #faf4f4;
+  --background-footer: #2f303a;
+  --team-list-background-color: #ffffff;
+  --svg-icon-color: #b8b0af;
+  --border-web-color: #eeeeee;
+  --border-bottom: #ececec;
+  --modal-bck-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--accent-color);
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+/*# sourceMappingURL=main.css.map */

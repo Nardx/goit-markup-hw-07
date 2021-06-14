@@ -1,70 +1,13 @@
-:root {
-  --accent-color: #212121;
-  --accent-color2: #2196f3;
-  --accent-color3: #757575;
-  --accent-color4: #ffffff;
-  --hover-color: #2196f3;
-  --title-color: #212121;
-  --subtitle-color: #757575;
-  --button-color: #188ce8;
-  --background-color: #faf4f4;
-  --background-footer: #2f303a;
-  --team-list-background-color: #ffffff;
-  --svg-icon-color: #b8b0af;
-  --border-web-color: #eeeeee;
-  --border-bottom: #ececec;
-  --modal-bck-color: #ffffff;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-img {
-  display: block;
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--accent-color);
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 /*----------------MASTERS-------------*/
-
+/*Components*/
+.heading2-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  margin-bottom: 50px;
+}
 /* Header Section */
 
 .header {
@@ -262,15 +205,6 @@ body {
 
 .about-section {
   padding-bottom: 94px;
-}
-
-.heading2-title {
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-color);
-  margin-bottom: 50px;
 }
 
 .about-section-list {
@@ -874,17 +808,6 @@ body {
   background-position: center;
   background-color: var(--accent-color2);
   border: 1px solid var(--accent-color2);
-}
-
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
 }
 
 .modal-form-btn {
