@@ -13,6 +13,16 @@
   box-sizing: border-box;
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--hover-color);
+  }
+
+  &:hover .regular-customers-icon,
+  &:focus .regular-customers-icon {
+    fill: var(--hover-color);
+  }
 }
 
 .regular-customers-icon {
@@ -20,14 +30,4 @@
   width: 107px;
   height: 60px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.regular-list-link:hover,
-.regular-list-link:focus {
-  border: 1px solid var(--hover-color);
-}
-
-.regular-list-link:hover .regular-customers-icon,
-.regular-list-link:focus .regular-customers-icon {
-  fill: var(--hover-color);
 }
