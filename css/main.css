@@ -85,11 +85,11 @@ body {
   color: #2196f3;
 }
 
-.logo-color {
+.logo_color_black {
   color: #000000;
 }
 
-.logo-color2 {
+.logo_color_white {
   color: #ffffff;
 }
 
@@ -427,12 +427,12 @@ body {
   margin: 0 auto;
 }
 
-.heroflex-section {
+.herosection__wrapper {
   display: flex;
   flex-direction: column;
 }
 
-.herosection-title {
+.herosection__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -443,7 +443,7 @@ body {
   margin-bottom: 30px;
 }
 
-.hero-section-button {
+.herosection-button {
   width: 200px;
   height: 50px;
   border-radius: 4px;
@@ -459,31 +459,31 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-section-button:hover, .hero-section-button:focus {
+.herosection-button:hover, .herosection-button:focus {
   background-color: var(--button-color);
   color: var(--accent-color4);
 }
 
-.info-setcion-list {
+.info-section__list {
   display: flex;
   justify-content: space-between;
 }
 
-.info-section-svg-background {
+.info-section__svg_background {
   width: 270px;
   height: 120px;
   background-color: var(--background-colorsec);
   margin-bottom: 30px;
 }
 
-.info-section-img {
+.info-section__img {
   width: 70px;
   height: 70px;
   margin-left: 100px;
   margin-top: 25px;
 }
 
-.info-setion-title {
+.info-setion__title {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -492,7 +492,7 @@ body {
   margin-bottom: 10px;
 }
 
-.info-section-subtitle {
+.info-section__subtitle {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

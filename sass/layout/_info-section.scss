@@ -1,23 +1,23 @@
-.info-setcion-list {
+.info-section__list {
   display: flex;
   justify-content: space-between;
 }
 
-.info-section-svg-background {
+.info-section__svg_background {
   width: 270px;
   height: 120px;
   background-color: var(--background-colorsec);
   margin-bottom: 30px;
 }
 
-.info-section-img {
+.info-section__img {
   width: 70px;
   height: 70px;
   margin-left: 100px;
   margin-top: 25px;
 }
 
-.info-setion-title {
+.info-setion__title {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -26,7 +26,7 @@
   margin-bottom: 10px;
 }
 
-.info-section-subtitle {
+.info-section__subtitle {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
