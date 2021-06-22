@@ -327,15 +327,15 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-policy-link {
-  color: var(--accent-color2);
-}
-
 .modal-form-checkbox:checked + .modal-form-checkbox-policy::before {
   background-image: url("../images/iconcheck.svg");
   background-position: center;
   background-color: var(--accent-color2);
   border: 1px solid var(--accent-color2);
+}
+
+.modal-form-policy-link {
+  color: var(--accent-color2);
 }
 
 .modal-form-btn {
@@ -355,8 +355,7 @@ body {
   margin-top: 40px;
 }
 
-.modal-form-btn:hover,
-.modal-form-btn:focus {
+.modal-form-btn:hover, .modal-form-btn:focus {
   background-color: var(--button-color);
   color: var(--accent-color4);
 }
