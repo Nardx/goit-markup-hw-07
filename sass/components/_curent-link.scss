@@ -1,5 +1,6 @@
 .current {
   position: relative;
+  color: var(--hover-color);
 
   &::after {
     position: absolute;
